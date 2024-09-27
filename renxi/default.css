@@ -1,0 +1,47 @@
+body{margin:0;padding:0;background:#ffe;font-size:14px;font-family:'微软雅黑','宋体',sans-serif;color:#231F20;overflow:auto}
+a {color:#000;font-size:14px;}
+#main{width:100%;}
+#wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:10px;}
+#text{width:400px;height:425px;left:60px;top:80px;position:absolute;}
+#code{display:none;font-size:16px;}
+#clock-box {position:absolute;left:60px;top:550px;font-size:28px;display:none;}
+#clock-box a {font-size:28px;text-decoration:none;}
+#clock{margin-left:48px;}
+#clock .digit {font-size:64px;}
+#canvas{margin:0 auto;width:1100px;height:680px;}
+#error{margin:0 auto;text-align:center;margin-top:60px;display:none;}
+.hand{cursor:pointer;}
+.say{margin-left:0; margin-top: 20px;}
+.space{margin-right:150px;}
+
+.h_container{
+    border-radius: 33px;
+    display: inline-block;
+    width: 70px;
+    height:70px;
+    text-align:center;
+    line-height:45px;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+#heart{
+    font-size: 55px;
+    margin-top: 10px;
+    border-radius: 43px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    padding: 10px;
+    /* border: 0px; */
+}
+#heart:hover{
+    color:red;
+}
+
+.clicktext{
+    text-align: center;
+}
+
+#click{
+    text-align: center;
+    margin-left: 12%;
+    
+}
